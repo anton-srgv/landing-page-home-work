@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.tor-quote h2 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.tor-quote h3 {
+    color: #1f2937;
+}
+
+p, a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
