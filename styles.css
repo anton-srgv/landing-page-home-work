@@ -77,11 +77,14 @@ nav {
 }
 
 .hero-section {
-    padding: 120px 24px;
+    padding: 120px 0px;
+    background-color: #1f2937;
+}
+
+.hero-section .container {
     display: flex;
     place-items: center center;
     gap: 32px;
-    background-color: #1f2937;
 }
 
 .hero-section-text {
@@ -100,11 +103,39 @@ nav {
 }
 
 .info {
-    padding: 48px 24px 120px;
+    padding: 48px 0px 120px;
+    background-color: #fff;
+}
+
+.info .container {
     display: flex;
     flex-direction: column;
     place-items: center;
     gap: 40px;
-    background-color: #f9faf8;
+}
+
+.info-row {
+    display: flex;
+    gap: 48px;
+}
+
+.info-row-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.info-row-item-img {
+    margin-bottom: 16px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info-row-item p {
+    text-align: center;
+    color: #7d8085;
 }
 
