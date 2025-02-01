@@ -176,3 +176,11 @@ nav {
 .cta-section button {
     border: 2px solid #f9faf8;
 }
+
+footer {
+    background-color: #1f2937;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 48px 0px;
+}
