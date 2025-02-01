@@ -30,8 +30,10 @@ h2 {
 }
 
 .tor-quote h2 {
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
+    color: #52555b;
+    margin-bottom: 16px;
 }
 
 h3 {
@@ -41,12 +43,19 @@ h3 {
 
 .tor-quote h3 {
     color: #1f2937;
+    text-align: right;
+    margin-right: 16px;
 }
 
 p, a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.info-row-item p {
+    text-align: center;
+    color: #7d8085;
 }
 
 button {
@@ -100,6 +109,7 @@ nav {
     flex: 1;
     background-size: cover;
     min-height: 320px;
+    border-radius: 8px;
 }
 
 .info {
@@ -134,13 +144,35 @@ nav {
     border-radius: 16px;
 }
 
-.info-row-item p {
-    text-align: center;
-    color: #7d8085;
-}
-
 .tor-quote {
     background-color: #e5e7eb;
     padding: 120px 0px;
 }
 
+.tor-quote .container {
+    width: 944px;
+}
+
+.cta-section {
+    padding: 120px 0px;
+    background-color: #fff;
+}
+
+.cta-section .container {
+    padding: 64px 120px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.cta-section button {
+    border: 2px solid #f9faf8;
+}
