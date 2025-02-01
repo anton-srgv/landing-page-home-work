@@ -92,7 +92,7 @@ nav {
 
 .hero-section .container {
     display: flex;
-    place-items: center center;
+    align-items: center;
     gap: 32px;
 }
 
@@ -126,6 +126,7 @@ nav {
 
 .info-row {
     display: flex;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
