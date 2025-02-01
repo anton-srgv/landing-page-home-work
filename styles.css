@@ -6,10 +6,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* max-width: 1400px;
-    min-width: 800px; */
-    background-color: #1f2937;
-    margin: auto;
+}
+
+.container {
+    min-width: 760px;
+    max-width: 1256px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 h1 {
@@ -56,10 +61,14 @@ button {
 }
 
 header {
+    background-color: #1f2937;
+    padding-top: 24px;
+}
+
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 24px 0px;
 }
 
 nav {
@@ -72,6 +81,7 @@ nav {
     display: flex;
     place-items: center center;
     gap: 32px;
+    background-color: #1f2937;
 }
 
 .hero-section-text {
